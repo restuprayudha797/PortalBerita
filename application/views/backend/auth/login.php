@@ -59,9 +59,8 @@
                             <br />
 
                             <div>
-                                <h1>ABSENSI SMK MUDA</h1>
-                                <p>20<?= date('y') ?> All Rights Reserved. SMK MUHAMMADIYAH 2
-                                PEKANBARU</p>
+                                <h1>Portal Berita</h1>
+                                <p><?= date('Y-m-d') ?> All Rights Reserved.</p>
                             </div>
                         </div>
                     </form>

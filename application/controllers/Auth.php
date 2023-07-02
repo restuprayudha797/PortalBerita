@@ -93,7 +93,7 @@ class Auth extends CI_Controller
             //TODO input log user data
             $user_ip = $_SERVER['REMOTE_ADDR'];
             $log_time = time();
-            $this->db->query("INSERT INTO log_aktifitas (log_user,log_ip, log_time) VALUES('{$user['id_user']}','$user_ip','$log_time')");
+            $this->db->query("INSERT INTO log_activity (log_user,log_ip, log_time) VALUES('{$user['id_user']}','$user_ip','$log_time')");
 
             //TODO arahkan ke controller admin
             redirect('admin');

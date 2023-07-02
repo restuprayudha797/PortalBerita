@@ -51,7 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route = array(
     'beranda' => 'home',
-    
+    'login' => 'auth'
   );
 
 $route['default_controller'] = 'home';

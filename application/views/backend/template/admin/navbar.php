@@ -17,9 +17,9 @@
                 <li><a href="<?= base_url('admin'); ?>"><i class="fa fa-home"></i>Beranda</a></li>
                 <li><a><i class="fa fa-credit-card"></i> Master Data <span class="fa fa-chevron-down"></span></a>
                   <ul class="nav child_menu">
-                    <li><a href="">Kategori</a></li>
-                    <li><a href="">Berita</a></li>
-                    <li><a href="">Users</a></li>
+                    <li><a href="<?= base_url('kategori') ?>">Kategori</a></li>
+                    <li><a href="<?= base_url('berita') ?>">Berita</a></li>
+                    <li><a href="<?= base_url('pengguna') ?>">Pengguna</a></li>
                   </ul>
                 </li>
 
