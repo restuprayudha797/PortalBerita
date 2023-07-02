@@ -1,14 +1,17 @@
-<?php 
+<?php
 
-class Home extends CI_Controller{
+class Home extends CI_Controller
+{
 
-    public function index(){
-
-
-        $this->load->view('front-end/index');
+    public function __construct()
+    {
+        parent::__construct();
         
     }
 
-
+    public function index()
+    {
+        $this->load->view('front-end/index');
+    }
 
 }

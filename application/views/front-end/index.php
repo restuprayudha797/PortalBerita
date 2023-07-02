@@ -1,267 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="description" content="gps track limbungan merupakan sebuah karya anak bangsa dari smk muhammadiyah 2 pekanbaru yang di rancang khusu untuk menjaga kendaraan anda, gps track limbungan juga menyediakan berbagai device yang dirancang khusus: sepeda motor, mobil, truck, eskapator dsb.">
-    <meta content="gps, gps track limbungan, gps pku, gps pekanbaru, shield tracker, gpstrack, gpstracklimbungan, gps tracker, gps tv, gps smart" name="keywords">
-    <meta name="author" content="gps track limbungan">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project Absensi</title>
-    <link rel="stylesheet" href="<?= base_url('assets/assets-frontend/css/style.css') ?>" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- Basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Site Metas -->
+<title>Tech Blog - Stylish Magazine Blog Template</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Site Icons -->
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+<!-- Design fonts -->
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+<!-- Bootstrap core CSS -->
+<link href="<?= base_url('assets/assets-frontend/') ?>css/bootstrap.css" rel="stylesheet">
+
+<!-- FontAwesome Icons core CSS -->
+<link href="<?= base_url('assets/assets-frontend/') ?>css/font-awesome.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="<?= base_url('assets/assets-frontend/') ?>style.css" rel="stylesheet">
+
+<!-- Responsive styles for this template -->
+<link href="<?= base_url('assets/assets-frontend/') ?>css/responsive.css" rel="stylesheet">
+
+<!-- Colors for this template -->
+<link href="<?= base_url('assets/assets-frontend/') ?>css/colors.css" rel="stylesheet">
+
+<!-- Version Tech CSS for this template -->
+<link href="<?= base_url('assets/assets-frontend/') ?>css/version/tech.css" rel="stylesheet">
+
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
 <body>
-    <nav class="navigation">
-        <div class="content-nav">
-            <img src="https://www.smkmhd2pku.sch.id/assets/img/identitas/smkmuda.png" alt="Logo Image" class="image-nav" />
 
-            <ul class="menu-nav">
-                <div class="menu-icon close-mobile-btn">
-                    <span class="material-symbols-outlined"> close </span>
-                </div>
+ <div id="wrapper">
+  <header class="tech-header header">
+   <div class="container-fluid">
+    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+     </button>
+     <a class="navbar-brand" href="tech-index.html"><img src="images/version/tech-logo.png" alt=""></a>
+     <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+       <li class="nav-item">
+        <a class="nav-link" href="<?= base_url('beranda') ?>">Beranda</a>
+       </li>
 
-                <li><a href="#home">Home</a></li>
-                <li><a href="#instruction">Instruction</a></li>
-                <li><a href="#faq">FAQ</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-
-            <div class="menu-icon mobile-btn">
-                <span class="material-symbols-outlined"> menu </span>
-            </div>
-        </div>
+       <li class="nav-item">
+        <a class="nav-link" href="tech-category-01.html">Gadgets</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="tech-category-02.html">Videos</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="tech-category-03.html">Reviews</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="tech-contact.html">Contact Us</a>
+       </li>
+      </ul>
+      <ul class="navbar-nav mr-2">
+       <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa fa-rss"></i></a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa fa-android"></i></a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa fa-apple"></i></a>
+       </li>
+      </ul>
+     </div>
     </nav>
+   </div><!-- end container-fluid -->
+  </header><!-- end market-header -->
+
+  <section class="section first-section">
+   <div class="container-fluid">
+    <div class="masonry-blog clearfix">
+     <div class="first-slot">
+      <div class="masonry-box post-media">
+       <img src="<?= base_url('assets/assets-frontend/upload/') ?>/tekno.jpeg" alt="" class="img-fluid"  >
+       <div class="shadoweffect">
+        <div class="shadow-desc">
+         <div class="blog-meta">
+          <span class="bg-orange"><a href="tech-category-01.html" title="">gadget</a></span>
+          <h4><a href="tech-single.html" title="">Say hello to real handmade office furniture! Clean & beautiful design</a></h4>
+          <small><a href="tech-single.html" title="">24 July, 2017</a></small>
+          <small><a href="tech-author.html" title="">by Amanda</a></small>
+         </div><!-- end meta -->
+        </div><!-- end shadow-desc -->
+       </div><!-- end shadow -->
+      </div><!-- end post-media -->
+     </div><!-- end first-side -->
+
+     <div class="second-slot">
+      <div class="masonry-box post-media">
+       <img src="<?= base_url('assets/assets-frontend/upload/') ?>/apple.png" alt="" class="img-fluid">
+       <div class="shadoweffect">
+        <div class="shadow-desc">
+         <div class="blog-meta">
+          <span class="bg-orange"><a href="tech-category-01.html" title="">Gadgets</a></span>
+          <h4><a href="tech-single.html" title="">Do not make mistakes when choosing web hosting</a></h4>
+          <small><a href="tech-single.html" title="">03 July, 2017</a></small>
+          <small><a href="tech-author.html" title="">by Jessica</a></small>
+         </div><!-- end meta -->
+        </div><!-- end shadow-desc -->
+       </div><!-- end shadow -->
+      </div><!-- end post-media -->
+     </div><!-- end second-side -->
+
+     <div class="last-slot">
+      <div class="masonry-box post-media">
+       <img src="<?= base_url('assets/assets-frontend/upload/') ?>/android.png" alt="" class="img-fluid">
+       <div class="shadoweffect">
+        <div class="shadow-desc">
+         <div class="blog-meta">
+          <span class="bg-orange"><a href="tech-category-01.html" title="">Technology</a></span>
+          <h4><a href="tech-single.html" title="">The most reliable Galaxy Note 8 images leaked</a></h4>
+          <small><a href="tech-single.html" title="">01 July, 2017</a></small>
+          <small><a href="tech-author.html" title="">by Jessica</a></small>
+         </div><!-- end meta -->
+        </div><!-- end shadow-desc -->
+       </div><!-- end shadow -->
+      </div><!-- end post-media -->
+     </div><!-- end second-side -->
+    </div><!-- end masonry -->
+   </div>
+  </section>
+
+  <section class="section">
+   <div class="container">
+    <div class="row">
+     <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+      <div class="page-wrapper">
+       <div class="blog-top clearfix">
+        <h4 class="pull-left">Recent News <a href="#"><i class="fa fa-rss"></i></a></h4>
+       </div><!-- end blog-top -->
+
+       <div class="blog-list clearfix">
+        <div class="blog-box row">
+         <div class="col-md-4">
+          <div class="post-media">
+           <a href="tech-single.html" title="">
+            <img src="<?= base_url('assets/assets-frontend/upload/') ?>/apple.jpeg" alt="" class="img-fluid">
+            <div class="hovereffect"></div>
+           </a>
+          </div><!-- end media -->
+         </div><!-- end col -->
+
+         <div class="blog-meta big-meta col-md-8">
+          <h4><a href="tech-single.html" title="">Top 10 phone applications and 2017 mobile design awards</a></h4>
+          <p>Aenean interdum arcu blandit, vehicula magna non, placerat elit. Mauris et pharetratortor. Suspendissea sodales urna. In at augue elit. Vivamus enim nibh, maximus ac felis nec, maximus tempor odio.</p>
+          <small class="firstsmall"><a class="bg-orange" href="tech-category-01.html" title="">Gadgets</a></small>
+          <small><a href="tech-single.html" title="">21 July, 2017</a></small>
+          <small><a href="tech-author.html" title="">by Matilda</a></small>
+          <small><a href="tech-single.html" title=""><i class="fa fa-eye"></i> 1114</a></small>
+         </div><!-- end meta -->
+        </div><!-- end blog-box -->
+
+        <hr class="invis">
+
+        <div class="blog-box row">
+         <div class="col-md-4">
+          <div class="post-media">
+           <a href="tech-single.html" title="">
+            <img src="<?= base_url('assets/assets-frontend/upload/') ?>/tech_blog_02.jpg" alt="" class="img-fluid">
+            <div class="hovereffect"></div>
+           </a>
+          </div><!-- end media -->
+         </div><!-- end col -->
+
+         <div class="blog-meta big-meta col-md-8">
+          <h4><a href="tech-single.html" title="">A device you can use both headphones and usb</a></h4>
+          <p>Aenean interdum arcu blandit, vehicula magna non, placerat elit. Mauris et pharetratortor. Suspendissea sodales urna. In at augue elit. Vivamus enim nibh, maximus ac felis nec, maximus tempor odio.</p>
+          <small class="firstsmall"><a class="bg-orange" href="tech-category-01.html" title="">Technology</a></small>
+          <small><a href="tech-single.html" title="">21 July, 2017</a></small>
+          <small><a href="tech-author.html" title="">by Matilda</a></small>
+          <small><a href="tech-single.html" title=""><i class="fa fa-eye"></i> 4412</a></small>
+         </div><!-- end meta -->
+        </div><!-- end blog-box -->
+
+        <hr class="invis">
+
+        <div class="blog-box row">
+         <div class="col-md-4">
+          <div class="post-media">
+           <a href="tech-single.html" title="">
+            <img src="<?= base_url('assets/assets-frontend/upload/') ?>/tech_blog_03.jpg" alt="" class="img-fluid">
+            <div class="hovereffect"></div>
+           </a>
+          </div><!-- end media -->
+         </div><!-- end col -->
+
+         <div class="blog-meta big-meta col-md-8">
+          <h4><a href="tech-single.html" title="">Two brand new laptop models from ABC computer</a></h4>
+          <p>Aenean interdum arcu blandit, vehicula magna non, placerat elit. Mauris et pharetratortor. Suspendissea sodales urna. In at augue elit. Vivamus enim nibh, maximus ac felis nec, maximus tempor odio.</p>
+          <small class="firstsmall"><a class="bg-orange" href="tech-category-01.html" title="">Development</a></small>
+          <small><a href="tech-single.html" title="">20 July, 2017</a></small>
+          <small><a href="tech-author.html" title="">by Matilda</a></small>
+          <small><a href="tech-single.html" title=""><i class="fa fa-eye"></i> 2313</a></small>
+         </div><!-- end meta -->
+        </div><!-- end blog-box -->
+
+        <hr class="invis">
 
 
-    <div id="home" class="background">
-        <div class="content">
-            <h1>Welcome to <span>Absensi website</span></h1>
-            <p>
-                "Sederhana, Cepat, dan Akurat" - Absensi menggunakan ID Card
-                memastikan pencatatan kehadiran yang tepat waktu dan akurat.
-            </p>
-            <div class="button-content">
-                <a href="" class="button"><span class="material-symbols-outlined"> person </span> Wali
-                    Kelas</a>
-                <a href="" class="button"><span class="material-symbols-outlined"> group </span> Wali
-                    Murid</a>
+
+
+
+
+        <div class="blog-box row">
+         <div class="col-md-4">
+          <div class="post-media">
+           <a href="tech-single.html" title="">
+            <img src="<?= base_url('assets/assets-frontend/upload/') ?>/tech_blog_08.jpg" alt="" class="img-fluid">
+            <div class="hovereffect"></div>
+           </a>
+          </div><!-- end media -->
+         </div><!-- end col -->
+
+         <div class="blog-meta big-meta col-md-8">
+          <h4><a href="tech-single.html" title="">If you are considering buying a new safe for your mobile phone, be sure to read this article</a></h4>
+          <p>Aenean interdum arcu blandit, vehicula magna non, placerat elit. Mauris et pharetratortor. Suspendissea sodales urna. In at augue elit. Vivamus enim nibh, maximus ac felis nec, maximus tempor odio.</p>
+          <small class="firstsmall"><a class="bg-orange" href="tech-category-01.html" title="">Reviews</a></small>
+          <small><a href="tech-single.html" title="">15 July, 2017</a></small>
+          <small><a href="tech-author.html" title="">by Matilda</a></small>
+          <small><a href="tech-single.html" title=""><i class="fa fa-eye"></i> 44123</a></small>
+         </div><!-- end meta -->
+        </div><!-- end blog-box -->
+        <hr class="invis">
+       </div><!-- end blog-list -->
+      </div><!-- end page-wrapper -->
+      <hr class="invis">
+     </div><!-- end col -->
+     <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+      <div class="sidebar">
+       <div class="widget">
+        <div class="widget">
+         <h2 class="widget-title">Popular Posts</h2>
+         <div class="blog-list-widget">
+          <div class="list-group">
+           <a href="tech-single.html" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="w-100 justify-content-between">
+             <img src="<?= base_url('assets/assets-frontend/upload/') ?>/tech_blog_08.jpg" alt="" class="img-fluid float-left">
+             <h5 class="mb-1">5 Beautiful buildings you need..</h5>
+             <small>12 Jan, 2016</small>
             </div>
+           </a>
+           <a href="tech-single.html" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="w-100 justify-content-between">
+             <img src="<?= base_url('assets/assets-frontend/upload/') ?>/tech_blog_01.jpg" alt="" class="img-fluid float-left">
+             <h5 class="mb-1">Let's make an introduction for..</h5>
+             <small>11 Jan, 2016</small>
+            </div>
+           </a>
+           <a href="tech-single.html" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="w-100 last-item justify-content-between">
+             <img src="<?= base_url('assets/assets-frontend/upload/') ?>/tech_blog_03.jpg" alt="" class="img-fluid float-left">
+             <h5 class="mb-1">Did you see the most beautiful..</h5>
+             <small>07 Jan, 2016</small>
+            </div>
+           </a>
+          </div>
+         </div><!-- end blog-list -->
+        </div><!-- end widget -->
+        <div class="widget">
+         <div class="banner-spot clearfix">
+          <div class="banner-img">
+           <img src="<?= base_url('assets/assets-frontend/upload/') ?>/banner_03.jpg" alt="" class="img-fluid">
+          </div><!-- end banner-img -->
+         </div><!-- end banner -->
+        </div><!-- end widget -->
+       </div><!-- end sidebar -->
+      </div><!-- end col -->
+     </div><!-- end row -->
+    </div><!-- end container -->
+  </section>
+
+  <footer class="footer">
+   <div class="container">
+    <div class="row">
+     <div class="col-lg-7">
+      <div class="widget">
+       <div class="footer-text text-left">
+        <a href="index.html"><img src="images/version/tech-footer-logo.png" alt="" class="img-fluid"></a>
+        <p>Tech Blog is a technology blog, we sharing marketing, news and gadget articles.</p>
+        <div class="social">
+         <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+         <a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+         <a href="#" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram"></i></a>
+         <a href="#" data-toggle="tooltip" data-placement="bottom" title="Google Plus"><i class="fa fa-google-plus"></i></a>
+         <a href="#" data-toggle="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest"></i></a>
         </div>
+
+        <hr class="invis">
+
+        <div class="newsletter-widget text-left">
+         <form class="form-inline">
+          <input type="text" class="form-control" placeholder="Enter your email address">
+          <button type="submit" class="btn btn-primary">SUBMIT</button>
+         </form>
+        </div><!-- end newsletter -->
+       </div><!-- end footer-text -->
+      </div><!-- end widget -->
+     </div><!-- end col -->
+
+     <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+      <div class="widget">
+       <h2 class="widget-title">Popular Categories</h2>
+       <div class="link-widget">
+        <ul>
+         <li><a href="#">Marketing <span>(21)</span></a></li>
+         <li><a href="#">SEO Service <span>(15)</span></a></li>
+         <li><a href="#">Digital Agency <span>(31)</span></a></li>
+         <li><a href="#">Make Money <span>(22)</span></a></li>
+         <li><a href="#">Blogging <span>(66)</span></a></li>
+        </ul>
+       </div><!-- end link-widget -->
+      </div><!-- end widget -->
+     </div><!-- end col -->
+
+     <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12">
+      <div class="widget">
+       <h2 class="widget-title">Copyrights</h2>
+       <div class="link-widget">
+        <ul>
+         <li><a href="#">About us</a></li>
+         <li><a href="#">Advertising</a></li>
+         <li><a href="#">Write for us</a></li>
+         <li><a href="#">Trademark</a></li>
+         <li><a href="#">License & Help</a></li>
+        </ul>
+       </div><!-- end link-widget -->
+      </div><!-- end widget -->
+     </div><!-- end col -->
     </div>
 
-    <div class="container-grey">
-
-        <div id="instruction" class="instruction">
-            <h1 class="name">Instruction <span></span></h1>
-            <div class="step">
-                <img src="https://img.freepik.com/free-vector/features-overview-concept-illustration_114360-1481.jpg?w=740&t=st=1685678812~exp=1685679412~hmac=55c23371b2b36b6fee12fb716a814bfcdac99d34c2f65b3b704436d42201e0db" alt="ID Card" width="300" />
-                <div class="data">
-                    <h2>Langkah 1</h2>
-                    <p>Siapkan ID Card Anda.</p>
-                </div>
-            </div>
-
-            <div class="step">
-                <img src="https://img.freepik.com/free-vector/features-overview-concept-illustration_114360-1481.jpg?w=740&t=st=1685678812~exp=1685679412~hmac=55c23371b2b36b6fee12fb716a814bfcdac99d34c2f65b3b704436d42201e0db" alt="Mesin Absensi" width="300" />
-                <div class="data">
-                    <h2>Langkah 2</h2>
-                    <p>Pastikan mesin absensi dalam keadaan siap.</p>
-                </div>
-            </div>
-
-            <div class="step">
-                <img src="https://img.freepik.com/free-vector/features-overview-concept-illustration_114360-1481.jpg?w=740&t=st=1685678812~exp=1685679412~hmac=55c23371b2b36b6fee12fb716a814bfcdac99d34c2f65b3b704436d42201e0db" alt="ID Card ke Mesin Absensi" width="300" />
-                <div class="data">
-                    <h2>Langkah 3</h2>
-                    <p>Dekatkan ID Card Anda ke mesin absensi.</p>
-                </div>
-            </div>
-        </div>
+    <div class="row">
+     <div class="col-md-12 text-center">
+      <br>
+      <div class="copyright">&copy; Tech Blog. Design: <a href="http://html.design">HTML Design</a>.</div>
+     </div>
     </div>
+   </div><!-- end container -->
+  </footer><!-- end footer -->
 
-    <div class="container">
-        <div id="faq" class="faq">
-            <h1 class="name name-faq">Pertanyaan <span></span></h1>
-            <div class="faq-list">
-                <div class="faq-question" onclick="toggleFAQ(this)">
-                    <p>Apa itu Lorem Ipsum?</p>
-                    <span class="material-symbols-outlined faq-icon"> add </span>
-                </div>
-                <div class="faq-answer">
-                    Lorem Ipsum adalah teks contoh yang digunakan dalam industri
-                    percetakan dan penataan huruf. Teks Lorem Ipsum telah menjadi standar
-                    contoh teks sejak tahun 1500an.
-                </div>
-            </div>
+  <div class="dmtop">Scroll to Top</div>
 
-            <div class="faq-list">
-                <div class="faq-question" onclick="toggleFAQ(this)">
-                    <p>Bagaimana cara menggunakan fitur X?</p>
-                    <span class="material-symbols-outlined faq-icon"> add </span>
-                </div>
-                <div class="faq-answer">
-                    Untuk menggunakan fitur X, ikuti langkah-langkah berikut: ...
-                </div>
-            </div>
+ </div><!-- end wrapper -->
 
-            <div class="faq-list">
-                <div class="faq-question" onclick="toggleFAQ(this)">
-                    <p>Apakah website ini gratis?</p>
-                    <span class="material-symbols-outlined faq-icon"> add </span>
-                </div>
-                <div class="faq-answer">
-                    Iya, website ini 100% gratis untuk digunakan.
-                </div>
-            </div>
-        </div>
+ <!-- Core JavaScript
+    ================================================== -->
+ <script src="<?= base_url('assets/assets-frontend/') ?>js/jquery.min.js"></script>
+ <script src="<?= base_url('assets/assets-frontend/') ?>js/tether.min.js"></script>
+ <script src="<?= base_url('assets/assets-frontend/') ?>js/bootstrap.min.js"></script>
+ <script src="<?= base_url('assets/assets-frontend/') ?>js/custom.js"></script>
 
-        <div id="contact" class="contact">
-            <h1 class="name">Bantuan dan pesan <span></span></h1>
-            <form>
-                <div class="data-user">
-                    <div class="nama">
-                        <span class="material-symbols-outlined"> person </span>
-                        <input type="text" name="name" id="name" placeholder="Nama" required />
-                    </div>
-
-                    <div class="email">
-                        <span class="material-symbols-outlined"> mail </span>
-                        <input type="email" name="email" id="email" placeholder="Email" required />
-                    </div>
-                </div>
-
-                <div class="pesan">
-                    <span class="material-symbols-outlined"> chat </span>
-                    <textarea name="message" id="message" cols="30" rows="5" placeholder="Pesan" required></textarea>
-                </div>
-
-                <button type="submit">Kirim sekarang</button>
-            </form>
-        </div>
-    </div>
-
-    <div class="container-grey">
-        <div class="developer">
-            <h1 class="name">Developer <span></span></h1>
-            <div class="user-data">
-                <div class="dev-data">
-                    <img class="image" src="<?= base_url('assets/assets-frontend/img') ?>/user-1.jpeg" alt="User Image" />
-                    <p class="dev-name">M.Restu Prayudha</p>
-                    <p class="dev-work">Full-Stack Developer </p>
-                    <div class="dev-deks">
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
-                        <a href=""><i class="fa-solid fa-envelope"></i></a>
-                    </div>
-                </div>
-
-                <div class="dev-data">
-                    <img class="image" src="<?= base_url('assets/assets-frontend/img') ?>/user-2.jpeg" alt="User Image" />
-                    <p class="dev-name">Zidan Rafif Pratama</p>
-                    <p class="dev-work">IOT Enginer</p>
-                    <div class="dev-deks">
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
-                        <a href=""><i class="fa-solid fa-envelope"></i></a>
-                    </div>
-                </div>
-
-                <div class="dev-data">
-                    <img class="image" src="<?= base_url('assets/assets-frontend/img') ?>/chiko.jpeg" alt="User Image" />
-                    <p class="dev-name">Chiko ID</p>
-                    <p class="dev-work">Web Developer</p>
-                    <div class="dev-deks">
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
-                        <a href=""><i class="fa-solid fa-envelope"></i></a>
-                    </div>
-                </div>
-
-                <div class="dev-data">
-                    <img class="image" src="<?= base_url('assets/assets-frontend/img') ?>/user-4.jpeg" alt="User Image" />
-                    <p class="dev-name">Nabil</p>
-                    <p class="dev-work">Front-End Developer</p>
-                    <div class="dev-deks">
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
-                        <a href=""><i class="fa-solid fa-envelope"></i></a>
-                    </div>
-                </div>
-
-                <div class="dev-data">
-                    <img class="image" src="<?= base_url('assets/assets-frontend/img') ?>/user-5.jpeg" alt="User Image" />
-                    <p class="dev-name">Syaqil</p>
-                    <p class="dev-work">Front-End Developer</p>
-                    <div class="dev-deks">
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
-                        <a href=""><i class="fa-solid fa-envelope"></i></a>
-                    </div>
-                </div>
-
-                <div class="dev-data">
-                    <img class="image" src="<?= base_url('assets/assets-frontend/img') ?>/user-6.jpeg" alt="User Image" />
-                    <p class="dev-name">Gilang</p>
-                    <p class="dev-work">Front-End Developer</p>
-                    <div class="dev-deks">
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
-                        <a href=""><i class="fa-solid fa-envelope"></i></a>
-                    </div>
-                </div>
-
-                <div class="dev-data mid">
-                    <img class="image" src="<?= base_url('assets/assets-frontend/img') ?>/user-3.jpeg" alt="User Image" />
-                    <p class="dev-name">Metika Putri</p>
-                    <p class="dev-work">Administrasi</p>
-                    <div class="dev-deks">
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
-                        <a href=""><i class="fa-solid fa-envelope"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="footer">
-        <div class="address">
-            <h1 class="judul">SMK Muhammadiyah 2 Pekanbaru</h1>
-            <p class="alamat">
-                <i class="fa-solid fa-location-dot"></i> Jl. KH. Ahmad Dahlan No. 90
-                Pekanbaru, Riau
-            </p>
-            <p class="telp">
-                <i class="fa-solid fa-phone"></i> Telepon : 0761-35778
-            </p>
-            <p class="mail">
-                <i class="fa-solid fa-envelope"></i> Email :
-                smkmudapekanbaru@gmail.com
-            </p>
-        </div>
-
-        <div class="medsos">
-            <ul>
-                <li>
-                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                </li>
-
-                <li>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                </li>
-
-                <li>
-                    <a href=""><i class="fa-brands fa-youtube"></i></a>
-                </li>
-
-                <li>
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>
-                </li>
-            </ul>
-        </div>
-    </div>
 </body>
-<script src="<?= base_url('assets/assets-frontend/js') ?>/script.js"></script>
 
 </html>
