@@ -60,7 +60,7 @@
 
                             <div>
                                 <h1>Portal Berita</h1>
-                                <p><?= date('Y-m-d') ?> All Rights Reserved.</p>
+                                <p><?= date('Y-m-d') ?>oin All Rights Reserved.</p>
                             </div>
                         </div>
                     </form>

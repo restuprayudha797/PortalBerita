@@ -1,6 +1,12 @@
 <!-- get user based on session->userdata('id_user) -->
-<!-- footer content -->
 
+<!-- footer content -->
+<footer>
+  <div class="pull-right">
+    Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+  </div>
+  <div class="clearfix"></div>
+</footer>
 <!-- /footer content -->
 </div>
 </div>
@@ -119,14 +125,7 @@
 
 
 <!---------------------------  js for Ckeditor --------------------------->
-<!-- panggil ckeditor.js -->
-<script type="text/javascript" src="<?= base_url('assets') ?>/ckeditor/ckeditor.js"></script>
-<!-- panggil adapter jquery ckeditor -->
-<script type="text/javascript" src="<?= base_url('assets') ?>/ckeditor/adapters/jquery.js"></script>
-<!-- setup selector -->
-<script type="text/javascript">
-  $('textarea.texteditor').ckeditor();
-</script>
+
 
 <script>
   setInterval(function() {
@@ -144,7 +143,63 @@
 <!-- Custom Theme Scripts -->
 <script src="<?= base_url('assets/admin-template') ?>/build/js/custom.min.js"></script>
 
-]
+<!-- custom script AJAX responsive radio button etc -->
+<script type="text/javascript">
+  //TODO ---------------- AJAX Update Is Active TA --------------
+
+  $("input#radio-ta").on('click', function() {
+    const id = $(this).data('idta');
+    const status = $(this).data('isactive');
+
+    $.ajax({
+      url: "<?= base_url('siswa/tahunActive'); ?>",
+      type: 'post',
+      data: {
+        idTA: id,
+        isactive: status
+      },
+      success: function() {
+        document.location.href = "<?= base_url('siswa/tahunajaran'); ?>";
+      }
+    });
+  });
+
+  //TODO ---------------- AJAX Update Is Active ControlPanel --------------
+
+  $("input#radio-cp").on('click', function() {
+    const id = $(this).data('idcp');
+    const status = $(this).data('isactive');
+
+    $.ajax({
+      url: "<?= base_url('setting/cpanelActive'); ?>",
+      type: 'post',
+      data: {
+        idCP: id,
+        isactive: status
+      },
+      success: function() {
+        document.location.href = "<?= base_url('setting'); ?>";
+      }
+    });
+  });
+</script>
+
+<script src="https://cdn.ckeditor.com/ckeditor5/38.1.0/classic/ckeditor.js"></script>
+
+
+<script>
+  ClassicEditor
+    .create(document.querySelector('#editor'))
+    .catch(error => {
+      console.error(error);
+    });
+</script>
+
+<!-- panggil ckeditor.js -->
+<script type="text/javascript" src="<?= base_url('assets') ?>/ckeditor/ckeditor.js"></script>
+<!-- panggil adapter jquery ckeditor -->
+<script type="text/javascript" src="<?= base_url('assets') ?>/ckeditor/adapters/jquery.js"></script>
+<!-- setup selector -->
 
 
 

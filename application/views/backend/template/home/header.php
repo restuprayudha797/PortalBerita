@@ -9,14 +9,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <!-- Site Metas -->
-<title>Tech Blog - Stylish Magazine Blog Template</title>
+<title>Web Techno</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
 <meta name="author" content="">
 
 <!-- Site Icons -->
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="shortcut icon" href="<?= base_url('assets/assets-frontend/') ?>images/logo.png" type="image/x-icon" />
+<link rel="apple-touch-icon" href="<?= base_url('assets/assets-frontend/') ?>images/logo.png">
 
 <!-- Design fonts -->
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
@@ -38,6 +38,8 @@
 
 <!-- Version Tech CSS for this template -->
 <link href="<?= base_url('assets/assets-frontend/') ?>css/version/tech.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 
 <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>

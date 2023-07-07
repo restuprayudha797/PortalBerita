@@ -19,6 +19,7 @@
                   <ul class="nav child_menu">
                     <li><a href="<?= base_url('kategori') ?>">Kategori</a></li>
                     <li><a href="<?= base_url('berita') ?>">Berita</a></li>
+                    <li><a href="<?= base_url('berita/addNews') ?>">Tambah Berita</a></li>
                     <li><a href="<?= base_url('pengguna') ?>">Pengguna</a></li>
                   </ul>
                 </li>
@@ -64,14 +65,13 @@
           <nav class="nav navbar-nav">
             <ul class=" navbar-right">
               <li class="nav-item dropdown open" style="padding-left: 15px;">
+              <?= $user['name'] ?>
                 <a href="javascript:;" class="user-profile dropdown-toggle" aria-haspopup="true" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
                   <b><?= $this->session->userdata('nama_user'); ?></b>
                 </a>
                 <div class="dropdown-menu dropdown-usermenu pull-right" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="<?= base_url('auth/logout'); ?>"><i class="fa fa-sign-out pull-right"></i> Log Out</a>
-                  <button type="button" class="dropdown-item" data-toggle="modal" data-target="#exampleModal">
-                    <i class="fa fa-unlock-alt pull-right" data-toggle="modal" data-target="#exampleModal"></i>Change Password
-                  </button>
+                 
                 </div>
               </li>
 
